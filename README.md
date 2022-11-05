@@ -65,8 +65,8 @@ It need to add some code snippets to make this pass work.
   ```shell
   $ rustc test.rs
   =================================
-  Function:DefId(0:6 ~ tt[5105]::main)
+  Function:DefId(0:6 ~ test[5105]::main)
   Double Free Bugs Exist:
-  occurs in tt.rs:10:1: 10:2 (#0)
+  occurs in test.rs:9:1: 9:2 (#0)
   
   ```
