@@ -1,6 +1,6 @@
 # SafeDrop
 
-### NOTE!!!The project is obsolete. We have integrated the features of SafeDrop into [RAP](https://github.com/Artisan-Lab/RAP).
+### NOTE!!!The project is obsolete!!! We have integrated the features of SafeDrop into [RAP](https://github.com/Artisan-Lab/RAP).
 
 A additional Rust compiler pass to detect memory safe bugs of Rust programs. SafeDrop performs path-sensitive and field-sensitive inter-procedural static analysis based on the mid-level IR of Rust program. It uses the tarjan algorithm to deal with the complex control flow loop and function call loop,
 then performs alias analysis on each execution path, detecting potential problems and reporting errors depend on our summarized rules.
